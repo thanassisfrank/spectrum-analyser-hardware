@@ -412,6 +412,10 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       "Root"
+    ],
+    [
+      "f2129979-97cf-4bb2-a57d-c61b1687f4a0",
+      "Battery management"
     ]
   ],
   "text_variables": {}
