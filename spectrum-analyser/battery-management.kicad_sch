@@ -2201,6 +2201,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 69.85) (xy 118.11 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d56ab6a-6768-4542-b8d1-feb109d17505")
+	)
+	(wire
+		(pts
 			(xy 128.27 78.74) (xy 128.27 81.28)
 		)
 		(stroke
@@ -2208,16 +2218,6 @@
 			(type default)
 		)
 		(uuid "80a8f018-44a2-487e-86fc-6c37c4325d6f")
-	)
-	(wire
-		(pts
-			(xy 101.6 72.39) (xy 101.6 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "813d8392-83f7-4b80-9933-31dd7377450b")
 	)
 	(wire
 		(pts
@@ -2341,16 +2341,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 76.2) (xy 118.11 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be7485cf-8b59-4616-8c22-c015a6388495")
-	)
-	(wire
-		(pts
 			(xy 135.89 105.41) (xy 135.89 115.57)
 		)
 		(stroke
@@ -2368,6 +2358,16 @@
 			(type default)
 		)
 		(uuid "c3a11220-17d3-46e1-89cd-255dd9235a90")
+	)
+	(wire
+		(pts
+			(xy 101.6 73.66) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ccb290ad-8e1e-4573-b36c-1a230265c602")
 	)
 	(wire
 		(pts
@@ -2629,7 +2629,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 118.11 115.57 0)
 			(effects
 				(font
@@ -2766,7 +2766,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 143.51 76.2 0)
 			(effects
 				(font
@@ -2882,7 +2882,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 101.6 72.39 0)
+		(at 101.6 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2891,7 +2891,7 @@
 		(fields_autoplaced yes)
 		(uuid "41f34f2f-3a94-4de9-b7fb-62b2cae41fd4")
 		(property "Reference" "#FLG04"
-			(at 101.6 70.485 0)
+			(at 101.6 71.755 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,15 +2900,16 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 101.6 67.31 0)
+			(at 105.41 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 72.39 0)
+			(at 101.6 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2917,7 +2918,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.6 72.39 0)
+			(at 101.6 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2926,7 +2927,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 101.6 72.39 0)
+			(at 101.6 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2974,7 +2975,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 196.85 98.298 90)
 			(effects
 				(font
@@ -3174,7 +3175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 124.46 77.978 90)
 			(effects
 				(font
@@ -3441,7 +3442,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 110.49 74.422 90)
 			(effects
 				(font
@@ -3875,7 +3876,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 95.25 75.2348 0)
 			(effects
 				(font
@@ -3944,7 +3945,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 88.392 95.25 90)
 			(effects
 				(font
@@ -3988,7 +3989,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 118.11 72.39 0)
+		(at 118.11 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3997,7 +3998,7 @@
 		(fields_autoplaced yes)
 		(uuid "dac35a8a-dcab-4299-82eb-5a833888eb18")
 		(property "Reference" "#PWR023"
-			(at 118.11 76.2 0)
+			(at 118.11 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +4007,7 @@
 			)
 		)
 		(property "Value" "+BATT"
-			(at 118.11 67.31 0)
+			(at 118.11 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4014,7 +4015,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 72.39 0)
+			(at 118.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4023,7 +4024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 72.39 0)
+			(at 118.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4032,7 +4033,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 118.11 72.39 0)
+			(at 118.11 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)

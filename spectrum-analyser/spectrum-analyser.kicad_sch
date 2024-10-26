@@ -292,6 +292,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -4648,6 +4750,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.21 123.19) (xy 29.21 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f191220-a600-44c7-8460-137f1aee32f5")
+	)
+	(wire
+		(pts
 			(xy 135.89 105.41) (xy 135.89 107.95)
 		)
 		(stroke
@@ -5077,7 +5189,7 @@
 		(uuid "ffd72347-7006-4bc3-8245-7fe3667681ce")
 	)
 	(rectangle
-		(start 102.87 15.24)
+		(start 101.6 15.24)
 		(end 215.9 92.71)
 		(stroke
 			(width 0)
@@ -5087,6 +5199,18 @@
 			(type none)
 		)
 		(uuid 0520ca41-6249-4d53-ae97-777a803d03f4)
+	)
+	(rectangle
+		(start 15.24 110.49)
+		(end 99.06 146.05)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 12ba2e85-143a-4486-9405-4eb97b5f88e4)
 	)
 	(rectangle
 		(start 15.24 15.24)
@@ -5101,7 +5225,7 @@
 		(uuid 6d5ad61a-61cd-48bd-8d7a-f817b74c27d3)
 	)
 	(rectangle
-		(start 177.165 95.25)
+		(start 176.53 95.25)
 		(end 281.94 162.56)
 		(stroke
 			(width 0)
@@ -5113,8 +5237,8 @@
 		(uuid 716ebe53-3def-43ee-b4a7-73f8aa95bf7c)
 	)
 	(rectangle
-		(start 15.24 71.12)
-		(end 99.06 146.05)
+		(start 15.24 69.85)
+		(end 99.06 107.95)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5125,7 +5249,7 @@
 		(uuid 7470003e-7a4f-40ab-8fde-20ebe56db26e)
 	)
 	(rectangle
-		(start 219.71 15.24)
+		(start 218.44 15.24)
 		(end 281.94 92.71)
 		(stroke
 			(width 0)
@@ -5137,7 +5261,7 @@
 		(uuid 9ad93902-ad4c-4c84-a794-98a455953300)
 	)
 	(rectangle
-		(start 102.87 95.25)
+		(start 101.6 95.25)
 		(end 173.99 146.05)
 		(stroke
 			(width 0)
@@ -5260,7 +5384,7 @@
 	)
 	(text "Battery management"
 		(exclude_from_sim no)
-		(at 97.79 144.78 0)
+		(at 97.79 106.68 0)
 		(effects
 			(font
 				(size 2 2)
@@ -5290,6 +5414,17 @@
 			(justify right bottom)
 		)
 		(uuid "acdd5b20-7389-4a7a-8ee0-59e6612245e5")
+	)
+	(text "Test points"
+		(exclude_from_sim no)
+		(at 97.79 144.78 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "b2cd9501-360b-42f8-b56f-bee8aad1ebde")
 	)
 	(text "Microcontroller"
 		(exclude_from_sim no)
@@ -5922,7 +6057,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 93.472 172.72 90)
 			(effects
 				(font
@@ -6061,7 +6196,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Thanassis_Foot:SW_PUSH_ADAFRUIT_SMALL"
 			(at 254 50.8 0)
 			(effects
 				(font
@@ -6131,7 +6266,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Coaxial:SMA_Samtec_SMA-J-P-H-ST-EM1_EdgeMount"
 			(at 250.19 125.73 0)
 			(effects
 				(font
@@ -6265,7 +6400,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Thanassis_Foot:SW_PUSH_ADAFRUIT_SMALL"
 			(at 254 40.64 0)
 			(effects
 				(font
@@ -6333,7 +6468,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 25.4 186.69 0)
 			(effects
 				(font
@@ -6763,7 +6898,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
 			(at 49.53 167.64 0)
 			(effects
 				(font
@@ -6897,7 +7032,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 41.91 186.69 0)
 			(effects
 				(font
@@ -7064,7 +7199,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 162.2552 175.26 0)
 			(effects
 				(font
@@ -7602,7 +7737,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 134.9248 175.26 0)
 			(effects
 				(font
@@ -7672,7 +7807,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 120.65 111.76 0)
 			(effects
 				(font
@@ -7943,7 +8078,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 37.592 170.18 90)
 			(effects
 				(font
@@ -8153,7 +8288,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 134.112 123.19 90)
 			(effects
 				(font
@@ -8262,6 +8397,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 29.21 127 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bce6dfc9-ca52-46f2-b5ea-dd7b6d408de6")
+		(property "Reference" "TP1"
+			(at 31.75 129.0319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 31.75 131.5719 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
+			(at 24.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 24.13 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 29.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d21ba6d0-ddc8-4043-b25b-d2a97770fdee")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 135.89 111.76 270)
 		(mirror x)
@@ -8289,7 +8491,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 135.89 111.76 0)
 			(effects
 				(font
@@ -8423,7 +8625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 31.75 164.338 90)
 			(effects
 				(font
@@ -8491,7 +8693,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Thanassis_Foot:SW_PUSH_ADAFRUIT_SMALL"
 			(at 254 30.48 0)
 			(effects
 				(font
@@ -8628,7 +8830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "thanassis_foot:1.30 OLED"
+		(property "Footprint" "Thanassis_Foot:1.30 OLED"
 			(at 55.88 36.83 0)
 			(effects
 				(font
@@ -8713,7 +8915,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Thanassis_Foot:ESP32-C3_Zero"
 			(at 138.43 45.72 0)
 			(effects
 				(font
@@ -8798,6 +9000,72 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "thanassis_sym:VUSB")
+		(at 29.21 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2a5f34f-8c8d-4c8d-a38f-035ddd9a6057")
+		(property "Reference" "#PWR016"
+			(at 29.21 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VUSB"
+			(at 29.21 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VUSB\""
+			(at 29.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "db3e66ad-94ee-4d2d-937b-443a20d0c111")
+		)
+		(instances
+			(project "spectrum-analyser"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -8894,7 +9162,7 @@
 				)
 			)
 		)
-		(property "Footprint" "thanassis_foot:RX5808(V3.3)"
+		(property "Footprint" "Thanassis_Foot:RX5808(V3.3)"
 			(at 245.11 110.49 0)
 			(effects
 				(font
@@ -9001,7 +9269,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Thanassis_Foot:SW_PUSH_ADAFRUIT_SMALL"
 			(at 254 60.96 0)
 			(effects
 				(font
@@ -9069,7 +9337,7 @@
 				)
 			)
 		)
-		(property "Footprint" "thanassis_foot:SW_SPDT_TEC_1825232-1"
+		(property "Footprint" "Thanassis_Foot:SW_SPDT_TEC_1825232-1"
 			(at 86.36 179.07 0)
 			(effects
 				(font
@@ -9142,7 +9410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 118.872 123.19 90)
 			(effects
 				(font
@@ -9252,8 +9520,8 @@
 		)
 	)
 	(sheet
-		(at 38.1 91.44)
-		(size 36.83 27.94)
+		(at 39.37 77.47)
+		(size 36.83 19.05)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -9264,7 +9532,7 @@
 		)
 		(uuid "f2129979-97cf-4bb2-a57d-c61b1687f4a0")
 		(property "Sheetname" "Battery management"
-			(at 38.1 90.7284 0)
+			(at 39.37 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9273,7 +9541,7 @@
 			)
 		)
 		(property "Sheetfile" "battery-management.kicad_sch"
-			(at 38.1 119.9646 0)
+			(at 39.37 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
