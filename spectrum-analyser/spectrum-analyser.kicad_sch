@@ -6092,7 +6092,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0520f369-43a9-46f7-a34f-409bd37cb393")
-		(property "Reference" "R8"
+		(property "Reference" "R3"
 			(at 109.22 171.45 0)
 			(effects
 				(font
@@ -6146,7 +6146,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R8")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -6162,7 +6162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06d86d7d-a41b-42c6-857a-2e5f58004f2f")
-		(property "Reference" "U2"
+		(property "Reference" "U3"
 			(at 153.67 160.02 0)
 			(effects
 				(font
@@ -6217,7 +6217,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U2")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6370,7 +6370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "18735923-a0ba-441b-8679-cd83b25990cd")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR018"
 			(at 140.97 30.48 0)
 			(effects
 				(font
@@ -6420,7 +6420,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR015")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -6503,7 +6503,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "230aaf04-a348-4a7e-a183-08d864abf031")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR04"
 			(at 44.45 125.73 0)
 			(effects
 				(font
@@ -6553,7 +6553,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR031")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -6667,7 +6667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "242ca083-2987-43d5-b747-1cbba673425d")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR012"
 			(at 120.65 109.22 0)
 			(effects
 				(font
@@ -6717,7 +6717,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR08")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -6800,7 +6800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "255489ed-1cb7-43ff-8dfd-b4cd40ef0b37")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR01"
 			(at 19.05 181.61 0)
 			(effects
 				(font
@@ -6850,7 +6850,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR07")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6866,7 +6866,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2da56d8d-6061-425b-a119-07b138e48c8e")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR05"
 			(at 46.99 161.29 0)
 			(effects
 				(font
@@ -6916,7 +6916,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR09")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -6932,7 +6932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "411aa246-1608-4df6-93f9-02945289ee53")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR010"
 			(at 90.17 190.5 0)
 			(effects
 				(font
@@ -6982,7 +6982,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR029")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -6998,7 +6998,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4761134e-8d54-4da9-8977-637aca5f3499")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR011"
 			(at 99.06 163.83 0)
 			(effects
 				(font
@@ -7048,7 +7048,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR030")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -7063,7 +7063,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4eb8e5dd-8383-470d-9154-d9a7d657380c")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 59.69 165.1 90)
 			(effects
 				(font
@@ -7117,7 +7117,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -7133,7 +7133,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b1ef7a8-49b6-4704-9021-eb7798e90a07")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 135.89 30.48 0)
 			(effects
 				(font
@@ -7183,7 +7183,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7298,7 +7298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5edef13f-368e-4edd-8681-36083601e23a")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR016"
 			(at 135.89 135.89 0)
 			(effects
 				(font
@@ -7348,7 +7348,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR011")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7435,7 +7435,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "601e5b7e-aad5-4fc6-9402-f3c08b75c10e")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 132.08 167.64 0)
 			(effects
 				(font
@@ -7485,7 +7485,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -7502,7 +7502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61adbc24-f058-4d54-9ef8-9b42e48e3c60")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR020"
 			(at 153.67 190.5 0)
 			(effects
 				(font
@@ -7552,7 +7552,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR05")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -7569,7 +7569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61ef5aa2-666d-4ebe-ac66-903dfb208e08")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR07"
 			(at 58.42 59.69 0)
 			(effects
 				(font
@@ -7619,7 +7619,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR03")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -7636,7 +7636,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "641ba98a-5cec-4c52-b9eb-8a929d14e9dd")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR024"
 			(at 250.19 139.7 0)
 			(effects
 				(font
@@ -7686,7 +7686,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR018")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7703,7 +7703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "66b07cc8-ab25-4bd9-bc9d-937c423244d1")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR06"
 			(at 58.42 31.75 0)
 			(effects
 				(font
@@ -7753,7 +7753,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR032")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -7769,7 +7769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e722c93-c0ba-4624-b9f0-384cf07e9935")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 33.02 170.18 0)
 			(effects
 				(font
@@ -7819,7 +7819,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -7836,7 +7836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78ec77e5-e56c-4018-9afb-cb525c29c736")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR022"
 			(at 227.33 111.76 0)
 			(effects
 				(font
@@ -7886,7 +7886,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR04")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -7972,7 +7972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "87ccfccf-0da1-4387-b751-1c96faa273e5")
-		(property "Reference" "D1"
+		(property "Reference" "D2"
 			(at 116.84 112.0774 90)
 			(effects
 				(font
@@ -8026,7 +8026,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D1")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -8042,7 +8042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9157c67d-5e6a-46a5-abe0-3214d11bac2b")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR017"
 			(at 138.43 72.39 0)
 			(effects
 				(font
@@ -8092,7 +8092,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR013")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -8176,7 +8176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9239351e-ef64-4c4e-bed0-0abe75dbf435")
-		(property "Reference" "#FLG05"
+		(property "Reference" "#FLG02"
 			(at 125.73 161.925 0)
 			(effects
 				(font
@@ -8227,7 +8227,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#FLG05")
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
@@ -8313,7 +8313,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aa164f28-572f-4130-a2a6-d26b837038bc")
-		(property "Reference" "Q5"
+		(property "Reference" "Q3"
 			(at 113.03 161.29 90)
 			(effects
 				(font
@@ -8370,7 +8370,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "Q5")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -8387,7 +8387,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ab1171f3-b33a-4455-bb43-5d5128460d23")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR015"
 			(at 135.89 109.22 0)
 			(effects
 				(font
@@ -8437,7 +8437,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR02")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -8453,7 +8453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3fc3b1e-3a72-43e6-add0-7349d603b91b")
-		(property "Reference" "R3"
+		(property "Reference" "R5"
 			(at 133.35 121.9199 0)
 			(effects
 				(font
@@ -8507,7 +8507,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R3")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -8523,7 +8523,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b98aa88c-0182-4a8c-9f1e-403b2a921804")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR021"
 			(at 166.37 166.37 0)
 			(effects
 				(font
@@ -8573,7 +8573,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR06")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -8656,7 +8656,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdb72991-1eea-4c1e-88dc-e9f74a8d81d7")
-		(property "Reference" "D2"
+		(property "Reference" "D3"
 			(at 132.08 112.0774 90)
 			(effects
 				(font
@@ -8710,7 +8710,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8726,7 +8726,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0daa300-bcb9-4336-9c4b-9902a75f63ec")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR09"
 			(at 62.23 182.88 0)
 			(effects
 				(font
@@ -8776,7 +8776,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR014")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -8792,7 +8792,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9bb74e0-805a-43cd-93d5-98a53872b899")
-		(property "Reference" "R7"
+		(property "Reference" "R1"
 			(at 39.37 154.94 90)
 			(effects
 				(font
@@ -8844,7 +8844,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R7")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -8928,7 +8928,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d36c6147-cb7f-4f7e-80be-26a97e490ab8")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR023"
 			(at 227.33 156.21 0)
 			(effects
 				(font
@@ -8978,7 +8978,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR017")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9079,7 +9079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4e63420-4997-428e-99ea-82d45dc50c3f")
-		(property "Reference" "U3"
+		(property "Reference" "U2"
 			(at 140.6241 60.96 0)
 			(effects
 				(font
@@ -9181,7 +9181,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U3")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -9197,7 +9197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2a5f34f-8c8d-4c8d-a38f-035ddd9a6057")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR02"
 			(at 29.21 127 0)
 			(effects
 				(font
@@ -9247,7 +9247,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR016")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9264,7 +9264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3e9568d-5d3e-4aae-ba9a-a3993a070299")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR08"
 			(at 58.42 127 0)
 			(effects
 				(font
@@ -9314,7 +9314,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR034")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9330,7 +9330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e62a8d39-1667-40a7-b306-c76ac20c07f8")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR025"
 			(at 267.97 76.2 0)
 			(effects
 				(font
@@ -9380,7 +9380,7 @@
 		(instances
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR019")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -9569,7 +9569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ee69d67e-5316-4617-9837-a0f320cb3c79")
-		(property "Reference" "SW6"
+		(property "Reference" "SW1"
 			(at 97.79 171.45 0)
 			(effects
 				(font
@@ -9624,7 +9624,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "SW6")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -9640,7 +9640,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f449bf0b-e0ee-4c42-9833-799422cbd9c9")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 118.11 121.9199 0)
 			(effects
 				(font
@@ -9694,7 +9694,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -9711,7 +9711,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9ef82da-4024-48d4-8d09-a93ba6055fab")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR019"
 			(at 140.97 166.37 0)
 			(effects
 				(font
@@ -9761,7 +9761,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "#PWR033")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
