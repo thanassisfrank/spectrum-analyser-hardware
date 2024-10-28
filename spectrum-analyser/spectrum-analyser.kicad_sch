@@ -1633,6 +1633,88 @@
 				)
 			)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim yes)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 		(symbol "Regulator_Linear:LM1117MP-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4120,7 +4202,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 130.81) (xy 120.65 127)
+			(xy 130.81 130.81) (xy 130.81 127)
 		)
 		(stroke
 			(width 0)
@@ -4750,7 +4832,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 123.19) (xy 29.21 132.08)
+			(xy 54.61 123.19) (xy 54.61 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4760,7 +4842,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 105.41) (xy 135.89 107.95)
+			(xy 146.05 105.41) (xy 146.05 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4800,7 +4882,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 123.19) (xy 44.45 132.08)
+			(xy 69.85 123.19) (xy 69.85 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4900,7 +4982,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 105.41) (xy 120.65 107.95)
+			(xy 130.81 105.41) (xy 130.81 107.95)
 		)
 		(stroke
 			(width 0)
@@ -4990,7 +5072,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 115.57) (xy 135.89 119.38)
+			(xy 146.05 115.57) (xy 146.05 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5000,7 +5082,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 130.81) (xy 120.65 130.81)
+			(xy 129.54 130.81) (xy 130.81 130.81)
 		)
 		(stroke
 			(width 0)
@@ -5040,7 +5122,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 127) (xy 135.89 129.54)
+			(xy 146.05 127) (xy 146.05 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5070,7 +5152,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 123.19) (xy 58.42 132.08)
+			(xy 83.82 123.19) (xy 83.82 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5090,7 +5172,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 115.57) (xy 120.65 119.38)
+			(xy 130.81 115.57) (xy 130.81 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5221,7 +5303,7 @@
 		(uuid 0520ca41-6249-4d53-ae97-777a803d03f4)
 	)
 	(rectangle
-		(start 15.24 110.49)
+		(start 49.53 110.49)
 		(end 99.06 146.05)
 		(stroke
 			(width 0)
@@ -5267,6 +5349,18 @@
 			(type none)
 		)
 		(uuid 7470003e-7a4f-40ab-8fde-20ebe56db26e)
+	)
+	(rectangle
+		(start 15.24 110.49)
+		(end 46.99 146.05)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 77e228ff-9431-4692-ac56-77fe5033e157)
 	)
 	(rectangle
 		(start 218.44 15.24)
@@ -5328,7 +5422,7 @@
 	)
 	(text "PWR LED"
 		(exclude_from_sim no)
-		(at 135.89 140.97 0)
+		(at 146.05 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5481,13 +5575,24 @@
 	)
 	(text "CHRG LED"
 		(exclude_from_sim no)
-		(at 120.65 140.97 0)
+		(at 130.81 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "e68bf7d0-d100-4e53-b03d-0ba30773ce17")
+	)
+	(text "Mounting holes"
+		(exclude_from_sim no)
+		(at 45.72 144.78 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify right bottom)
+		)
+		(uuid "f52d5a16-110b-4a84-85d4-a2c86a8fbca4")
 	)
 	(text "Display"
 		(exclude_from_sim no)
@@ -5733,7 +5838,7 @@
 	)
 	(global_label "CHRG_STAT"
 		(shape input)
-		(at 119.38 130.81 180)
+		(at 129.54 130.81 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5743,7 +5848,7 @@
 		)
 		(uuid "696e5bc2-d975-4071-ace0-7d95472832b3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.0534 130.81 0)
+			(at 116.2134 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6291,6 +6396,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 21.59 116.84 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "159770e0-6a94-46ec-9acf-dfe1b8437fa2")
+		(property "Reference" "H1"
+			(at 24.13 115.5699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 24.13 118.1099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 21.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 21.59 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_Coaxial")
 		(at 250.19 125.73 0)
 		(unit 1)
@@ -6495,7 +6664,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 44.45 123.19 0)
+		(at 69.85 123.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6504,7 +6673,7 @@
 		(dnp no)
 		(uuid "230aaf04-a348-4a7e-a183-08d864abf031")
 		(property "Reference" "#PWR04"
-			(at 44.45 125.73 0)
+			(at 69.85 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6513,7 +6682,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 44.45 118.11 0)
+			(at 69.85 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,7 +6690,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 123.19 0)
+			(at 69.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6530,7 +6699,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 123.19 0)
+			(at 69.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6539,7 +6708,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 123.19 0)
+			(at 69.85 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6659,7 +6828,7 @@
 	)
 	(symbol
 		(lib_id "thanassis_sym:VUSB")
-		(at 120.65 105.41 0)
+		(at 130.81 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6668,7 +6837,7 @@
 		(fields_autoplaced yes)
 		(uuid "242ca083-2987-43d5-b747-1cbba673425d")
 		(property "Reference" "#PWR012"
-			(at 120.65 109.22 0)
+			(at 130.81 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6677,7 +6846,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 120.65 100.33 0)
+			(at 130.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6685,7 +6854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 105.41 0)
+			(at 130.81 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6694,7 +6863,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 105.41 0)
+			(at 130.81 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6703,7 +6872,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 120.65 105.41 0)
+			(at 130.81 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6725,7 +6894,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 44.45 132.08 180)
+		(at 69.85 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6734,7 +6903,7 @@
 		(fields_autoplaced yes)
 		(uuid "24a96553-a391-471e-b490-183959f7a91d")
 		(property "Reference" "TP2"
-			(at 46.99 134.1119 0)
+			(at 72.39 134.1119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6743,7 +6912,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 46.99 136.6519 0)
+			(at 72.39 136.6519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6751,8 +6920,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 39.37 132.08 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 64.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6761,7 +6930,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 132.08 0)
+			(at 64.77 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6770,7 +6939,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 44.45 132.08 0)
+			(at 69.85 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7124,6 +7293,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 21.59 134.62 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5629863e-4c47-4b73-a56c-22a16c1a4e52")
+		(property "Reference" "H3"
+			(at 24.13 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 24.13 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 21.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 21.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 21.59 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "spectrum-analyser"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "thanassis_sym:VUSB")
 		(at 135.89 26.67 0)
 		(unit 1)
@@ -7290,7 +7523,7 @@
 	(symbol
 		(lib_name "GND_4")
 		(lib_id "power:GND")
-		(at 135.89 129.54 0)
+		(at 146.05 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7299,7 +7532,7 @@
 		(fields_autoplaced yes)
 		(uuid "5edef13f-368e-4edd-8681-36083601e23a")
 		(property "Reference" "#PWR016"
-			(at 135.89 135.89 0)
+			(at 146.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7308,7 +7541,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 134.62 0)
+			(at 146.05 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7316,7 +7549,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 129.54 0)
+			(at 146.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7325,7 +7558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 129.54 0)
+			(at 146.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7334,7 +7567,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 129.54 0)
+			(at 146.05 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7964,7 +8197,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 120.65 111.76 270)
+		(at 130.81 111.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7973,7 +8206,7 @@
 		(dnp no)
 		(uuid "87ccfccf-0da1-4387-b751-1c96faa273e5")
 		(property "Reference" "D2"
-			(at 116.84 112.0774 90)
+			(at 127 112.0774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7982,7 +8215,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 116.84 114.6174 90)
+			(at 127 114.6174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7991,7 +8224,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 120.65 111.76 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8000,7 +8233,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 111.76 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8009,7 +8242,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 120.65 111.76 0)
+			(at 130.81 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8379,7 +8612,7 @@
 	(symbol
 		(lib_name "+VSW_1")
 		(lib_id "power:+VSW")
-		(at 135.89 105.41 0)
+		(at 146.05 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8388,7 +8621,7 @@
 		(fields_autoplaced yes)
 		(uuid "ab1171f3-b33a-4455-bb43-5d5128460d23")
 		(property "Reference" "#PWR015"
-			(at 135.89 109.22 0)
+			(at 146.05 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8397,7 +8630,7 @@
 			)
 		)
 		(property "Value" "+VSW"
-			(at 135.89 100.33 0)
+			(at 146.05 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8405,7 +8638,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 105.41 0)
+			(at 146.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8414,7 +8647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 105.41 0)
+			(at 146.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8423,7 +8656,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 135.89 105.41 0)
+			(at 146.05 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8444,35 +8677,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 135.89 123.19 0)
-		(mirror x)
+		(lib_id "Mechanical:MountingHole")
+		(at 21.59 125.73 0)
 		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
+		(exclude_from_sim yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "b3fc3b1e-3a72-43e6-add0-7349d603b91b")
-		(property "Reference" "R5"
-			(at 133.35 121.9199 0)
+		(fields_autoplaced yes)
+		(uuid "b0e05e92-1ebc-4902-9791-48601dc9acb7")
+		(property "Reference" "H2"
+			(at 24.13 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "470"
-			(at 133.35 124.4599 0)
+		(property "Value" "MountingHole"
+			(at 24.13 126.9999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 134.112 123.19 90)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+			(at 21.59 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8481,7 +8714,71 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 123.19 0)
+			(at 21.59 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 21.59 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "spectrum-analyser"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 146.05 123.19 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b3fc3b1e-3a72-43e6-add0-7349d603b91b")
+		(property "Reference" "R5"
+			(at 143.51 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "470"
+			(at 143.51 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 144.272 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8490,7 +8787,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 135.89 123.19 0)
+			(at 146.05 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8581,7 +8878,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 29.21 132.08 180)
+		(at 54.61 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8590,7 +8887,7 @@
 		(fields_autoplaced yes)
 		(uuid "bce6dfc9-ca52-46f2-b5ea-dd7b6d408de6")
 		(property "Reference" "TP1"
-			(at 31.75 134.1119 0)
+			(at 57.15 134.1119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8599,7 +8896,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 31.75 136.6519 0)
+			(at 57.15 136.6519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8607,8 +8904,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 24.13 132.08 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 49.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8617,7 +8914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 24.13 132.08 0)
+			(at 49.53 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8626,7 +8923,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 29.21 132.08 0)
+			(at 54.61 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8648,7 +8945,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 135.89 111.76 270)
+		(at 146.05 111.76 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8657,7 +8954,7 @@
 		(dnp no)
 		(uuid "bdb72991-1eea-4c1e-88dc-e9f74a8d81d7")
 		(property "Reference" "D3"
-			(at 132.08 112.0774 90)
+			(at 142.24 112.0774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8666,7 +8963,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 132.08 114.6174 90)
+			(at 142.24 114.6174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8675,7 +8972,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 135.89 111.76 0)
+			(at 146.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8684,7 +8981,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 111.76 0)
+			(at 146.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8693,7 +8990,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 135.89 111.76 0)
+			(at 146.05 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9189,7 +9486,7 @@
 	)
 	(symbol
 		(lib_id "thanassis_sym:VUSB")
-		(at 29.21 123.19 0)
+		(at 54.61 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9198,7 +9495,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2a5f34f-8c8d-4c8d-a38f-035ddd9a6057")
 		(property "Reference" "#PWR02"
-			(at 29.21 127 0)
+			(at 54.61 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9207,7 +9504,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 29.21 118.11 0)
+			(at 54.61 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9215,7 +9512,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.21 123.19 0)
+			(at 54.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9224,7 +9521,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.21 123.19 0)
+			(at 54.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9233,7 +9530,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 29.21 123.19 0)
+			(at 54.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9256,7 +9553,7 @@
 	(symbol
 		(lib_name "+VSW_1")
 		(lib_id "power:+VSW")
-		(at 58.42 123.19 0)
+		(at 83.82 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9265,7 +9562,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3e9568d-5d3e-4aae-ba9a-a3993a070299")
 		(property "Reference" "#PWR08"
-			(at 58.42 127 0)
+			(at 83.82 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9274,7 +9571,7 @@
 			)
 		)
 		(property "Value" "+VSW"
-			(at 58.42 118.11 0)
+			(at 83.82 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9282,7 +9579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 58.42 123.19 0)
+			(at 83.82 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9291,7 +9588,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 58.42 123.19 0)
+			(at 83.82 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9300,7 +9597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 58.42 123.19 0)
+			(at 83.82 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9929,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 120.65 123.19 0)
+		(at 130.81 123.19 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9641,7 +9938,7 @@
 		(dnp no)
 		(uuid "f449bf0b-e0ee-4c42-9833-799422cbd9c9")
 		(property "Reference" "R4"
-			(at 118.11 121.9199 0)
+			(at 128.27 121.9199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9650,7 +9947,7 @@
 			)
 		)
 		(property "Value" "470"
-			(at 118.11 124.4599 0)
+			(at 128.27 124.4599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9659,7 +9956,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 118.872 123.19 90)
+			(at 129.032 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,7 +9965,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 123.19 0)
+			(at 130.81 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9677,7 +9974,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 120.65 123.19 0)
+			(at 130.81 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9769,7 +10066,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 58.42 132.08 180)
+		(at 83.82 132.08 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9778,7 +10075,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff1437b0-3213-466d-bb18-c047efac958c")
 		(property "Reference" "TP3"
-			(at 60.96 134.1119 0)
+			(at 86.36 134.1119 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9787,7 +10084,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 60.96 136.6519 0)
+			(at 86.36 136.6519 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,8 +10092,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D3.0mm"
-			(at 53.34 132.08 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 78.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9805,7 +10102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 132.08 0)
+			(at 78.74 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9814,7 +10111,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 58.42 132.08 0)
+			(at 83.82 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
