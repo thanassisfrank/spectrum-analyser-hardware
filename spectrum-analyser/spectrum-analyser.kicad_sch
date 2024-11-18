@@ -1715,7 +1715,10 @@
 				)
 			)
 		)
-		(symbol "Regulator_Linear:LM1117MP-3.3"
+		(symbol "Regulator_Linear:AP2127N-3.3"
+			(pin_names
+				(offset 0.254)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1727,7 +1730,7 @@
 					)
 				)
 			)
-			(property "Value" "LM1117MP-3.3"
+			(property "Value" "AP2127N-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -1736,7 +1739,17 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1745,16 +1758,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
+			(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-23 package"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1772,7 +1776,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?223*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1781,10 +1785,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "LM1117MP-3.3_0_1"
+			(symbol "AP2127N-3.3_0_1"
 				(rectangle
-					(start -5.08 -5.08)
-					(end 5.08 1.905)
+					(start -5.08 1.905)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1794,7 +1798,7 @@
 					)
 				)
 			)
-			(symbol "LM1117MP-3.3_1_1"
+			(symbol "AP2127N-3.3_1_1"
 				(pin power_in line
 					(at 0 -7.62 90)
 					(length 2.54)
@@ -4197,8 +4201,8 @@
 		(uuid "932a390c-d683-4f80-ac6b-2826225ec4a7")
 	)
 	(no_connect
-		(at 92.71 176.53)
-		(uuid "dd6e3a5b-a29c-4609-98a7-ade5ee40223d")
+		(at 92.71 181.61)
+		(uuid "e547cab2-e0c6-420f-a4fc-83d13d1702cd")
 	)
 	(wire
 		(pts
@@ -4292,6 +4296,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 176.53) (xy 90.17 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "146d6375-55ff-4617-95ca-ee9b86c4f15f")
+	)
+	(wire
+		(pts
 			(xy 229.87 146.05) (xy 227.33 146.05)
 		)
 		(stroke
@@ -4299,16 +4313,6 @@
 			(type default)
 		)
 		(uuid "191efd9d-f047-4c06-bff1-d02d848f992f")
-	)
-	(wire
-		(pts
-			(xy 90.17 181.61) (xy 92.71 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d982bd3-2eea-41fa-94d1-0a598db1d950")
 	)
 	(wire
 		(pts
@@ -4672,6 +4676,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 132.08) (xy 91.44 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6693d442-97de-4a7b-a1dc-e18321eed02c")
+	)
+	(wire
+		(pts
 			(xy 227.33 146.05) (xy 227.33 149.86)
 		)
 		(stroke
@@ -4679,16 +4693,6 @@
 			(type default)
 		)
 		(uuid "69e2f256-e29b-42b9-8d41-9c4954075dba")
-	)
-	(wire
-		(pts
-			(xy 90.17 184.15) (xy 90.17 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ab007bb-1943-4f1a-b880-f30c36100d49")
 	)
 	(wire
 		(pts
@@ -4832,7 +4836,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 123.19) (xy 54.61 132.08)
+			(xy 54.61 119.38) (xy 54.61 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4882,7 +4886,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 123.19) (xy 69.85 132.08)
+			(xy 66.04 119.38) (xy 66.04 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4969,6 +4973,16 @@
 			(type default)
 		)
 		(uuid "a9d286a8-4cd0-400b-97cc-bbe86d3ea314")
+	)
+	(wire
+		(pts
+			(xy 90.17 176.53) (xy 92.71 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa193648-196e-4dd3-9b1d-2d239ceec79e")
 	)
 	(wire
 		(pts
@@ -5152,7 +5166,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 123.19) (xy 83.82 132.08)
+			(xy 77.47 119.38) (xy 77.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6258,77 +6272,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:LM1117MP-3.3")
-		(at 153.67 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "06d86d7d-a41b-42c6-857a-2e5f58004f2f")
-		(property "Reference" "U3"
-			(at 153.67 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LM1117MP-3.3"
-			(at 153.67 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
-			(at 153.67 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf"
-			(at 153.67 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "800mA Low-Dropout Linear Regulator, 3.3V fixed output, SOT-223"
-			(at 153.67 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b55d06c-afe8-4571-abf2-f5b4d2c949d0")
-		)
-		(pin "3"
-			(uuid "94f83032-a1a7-4639-86a3-6d9640fc5f23")
-		)
-		(pin "2"
-			(uuid "ee6c78d0-1026-4b8d-a8a8-90b016293e16")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 254 53.34 0)
 		(unit 1)
@@ -6423,7 +6366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 21.59 116.84 0)
 			(effects
 				(font
@@ -6664,7 +6607,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 69.85 123.19 0)
+		(at 66.04 119.38 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6673,7 +6616,7 @@
 		(dnp no)
 		(uuid "230aaf04-a348-4a7e-a183-08d864abf031")
 		(property "Reference" "#PWR04"
-			(at 69.85 125.73 0)
+			(at 66.04 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6682,7 +6625,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 69.85 118.11 0)
+			(at 66.04 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6690,7 +6633,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 69.85 123.19 0)
+			(at 66.04 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6699,7 +6642,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 69.85 123.19 0)
+			(at 66.04 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6708,7 +6651,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 69.85 123.19 0)
+			(at 66.04 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6894,16 +6837,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 69.85 132.08 180)
+		(at 66.04 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "24a96553-a391-471e-b490-183959f7a91d")
 		(property "Reference" "TP2"
-			(at 72.39 134.1119 0)
+			(at 64.77 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6912,7 +6854,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 72.39 136.6519 0)
+			(at 64.77 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,7 +6863,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 64.77 132.08 0)
+			(at 60.96 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +6872,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 132.08 0)
+			(at 60.96 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6939,7 +6881,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 69.85 132.08 0)
+			(at 66.04 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7262,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 21.59 134.62 0)
 			(effects
 				(font
@@ -7920,6 +7862,78 @@
 			(project ""
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AP2127N-3.3")
+		(at 153.67 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6542c9c5-e26f-41b9-8c27-3a4da08fd620")
+		(property "Reference" "U3"
+			(at 153.67 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2127N-3.3"
+			(at 153.67 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 153.67 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
+			(at 153.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-23 package"
+			(at 153.67 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f577bf7b-0916-4060-aa21-015653d2d87b")
+		)
+		(pin "1"
+			(uuid "1b36f4f2-12b4-46b3-8187-0e06e38bde9b")
+		)
+		(pin "3"
+			(uuid "5f6cc83c-6f62-4d94-b23b-914cb546e7be")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8677,6 +8691,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 91.44 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adb82e8c-5eeb-4c8b-b253-4746f12b20d7")
+		(property "Reference" "#PWR035"
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54d1885b-8015-4a72-bcf6-7675c4fdb9dc")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 21.59 125.73 0)
 		(unit 1)
@@ -8704,7 +8784,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5"
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_ISO7380"
 			(at 21.59 125.73 0)
 			(effects
 				(font
@@ -8878,16 +8958,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 54.61 132.08 180)
+		(at 54.61 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "bce6dfc9-ca52-46f2-b5ea-dd7b6d408de6")
 		(property "Reference" "TP1"
-			(at 57.15 134.1119 0)
+			(at 53.34 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8896,7 +8975,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 57.15 136.6519 0)
+			(at 53.34 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8905,7 +8984,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 49.53 132.08 0)
+			(at 49.53 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8914,7 +8993,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 132.08 0)
+			(at 49.53 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8923,7 +9002,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 54.61 132.08 0)
+			(at 54.61 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9486,7 +9565,7 @@
 	)
 	(symbol
 		(lib_id "thanassis_sym:VUSB")
-		(at 54.61 123.19 0)
+		(at 54.61 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9495,7 +9574,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2a5f34f-8c8d-4c8d-a38f-035ddd9a6057")
 		(property "Reference" "#PWR02"
-			(at 54.61 127 0)
+			(at 54.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9504,7 +9583,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 54.61 118.11 0)
+			(at 54.61 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9512,7 +9591,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 123.19 0)
+			(at 54.61 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9521,7 +9600,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 123.19 0)
+			(at 54.61 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9530,7 +9609,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 54.61 123.19 0)
+			(at 54.61 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9553,7 +9632,7 @@
 	(symbol
 		(lib_name "+VSW_1")
 		(lib_id "power:+VSW")
-		(at 83.82 123.19 0)
+		(at 77.47 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9562,7 +9641,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3e9568d-5d3e-4aae-ba9a-a3993a070299")
 		(property "Reference" "#PWR08"
-			(at 83.82 127 0)
+			(at 77.47 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9571,7 +9650,7 @@
 			)
 		)
 		(property "Value" "+VSW"
-			(at 83.82 118.11 0)
+			(at 77.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9579,7 +9658,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 123.19 0)
+			(at 77.47 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9588,7 +9667,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 123.19 0)
+			(at 77.47 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9597,7 +9676,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 83.82 123.19 0)
+			(at 77.47 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9998,6 +10077,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 91.44 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9779744-883c-4c4c-8be4-04e9489ab424")
+		(property "Reference" "TP4"
+			(at 92.71 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 92.71 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
+			(at 96.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 96.52 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 91.44 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0a724e1c-3a5f-4b49-8c58-979db3952681")
+		)
+		(instances
+			(project "spectrum-analyser"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "+VSW_1")
 		(lib_id "power:+VSW")
 		(at 140.97 162.56 0)
@@ -10066,16 +10211,15 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 83.82 132.08 180)
+		(at 77.47 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ff1437b0-3213-466d-bb18-c047efac958c")
 		(property "Reference" "TP3"
-			(at 86.36 134.1119 0)
+			(at 76.2 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10084,7 +10228,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 86.36 136.6519 0)
+			(at 76.2 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10093,7 +10237,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 78.74 132.08 0)
+			(at 72.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10102,7 +10246,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 132.08 0)
+			(at 72.39 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10111,7 +10255,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 83.82 132.08 0)
+			(at 77.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
