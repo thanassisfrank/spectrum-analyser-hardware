@@ -2103,7 +2103,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 87.63) (xy 124.46 97.79)
+			(xy 134.62 87.63) (xy 134.62 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2243,6 +2243,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 105.41) (xy 129.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6276e697-add4-4d36-be7b-04997ff9dced")
+	)
+	(wire
+		(pts
 			(xy 240.03 76.2) (xy 240.03 78.74)
 		)
 		(stroke
@@ -2303,7 +2313,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 87.63) (xy 124.46 87.63)
+			(xy 111.76 87.63) (xy 134.62 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2353,7 +2363,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 105.41) (xy 135.89 105.41)
+			(xy 139.7 105.41) (xy 142.24 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2393,7 +2403,7 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 105.41) (xy 135.89 119.38)
+			(xy 142.24 105.41) (xy 142.24 119.38)
 		)
 		(stroke
 			(width 0)
@@ -2470,16 +2480,6 @@
 			(type default)
 		)
 		(uuid "d61e5cdd-2676-44fe-9ec6-68ccfcff16a4")
-	)
-	(wire
-		(pts
-			(xy 119.38 105.41) (xy 116.84 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d99c096a-42d8-4ad4-a425-3a2289925615")
 	)
 	(wire
 		(pts
@@ -2619,6 +2619,17 @@
 			(justify left bottom)
 		)
 		(uuid "7d684362-d8e5-4b1e-b89d-39821927afef")
+	)
+	(label "BAT_PROT_D"
+		(at 118.11 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "89e95452-c538-4b31-a570-3819258177a5")
 	)
 	(label "BAT_PROT_VM"
 		(at 86.36 90.17 180)
@@ -3359,7 +3370,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 135.89 119.38 0)
+		(at 142.24 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3368,7 +3379,7 @@
 		(fields_autoplaced yes)
 		(uuid "606b2334-be77-4189-8aa3-087b55a45368")
 		(property "Reference" "#PWR031"
-			(at 135.89 125.73 0)
+			(at 142.24 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3377,7 +3388,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 135.89 124.46 0)
+			(at 142.24 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +3396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 119.38 0)
+			(at 142.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +3405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 119.38 0)
+			(at 142.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +3414,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 135.89 119.38 0)
+			(at 142.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4256,7 +4267,7 @@
 	)
 	(symbol
 		(lib_id "Device:Q_NMOS_GSD")
-		(at 124.46 102.87 90)
+		(at 134.62 102.87 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4265,7 +4276,7 @@
 		(dnp no)
 		(uuid "c658ab72-8844-4ea1-8fd9-ec3f5eb07716")
 		(property "Reference" "Q5"
-			(at 124.46 109.22 90)
+			(at 134.62 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4284,7 @@
 			)
 		)
 		(property "Value" "Q_NMOS_GSD"
-			(at 124.46 111.76 90)
+			(at 134.62 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4292,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 121.92 107.95 0)
+			(at 132.08 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4290,7 +4301,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 102.87 0)
+			(at 134.62 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,7 +4310,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 124.46 102.87 0)
+			(at 134.62 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
