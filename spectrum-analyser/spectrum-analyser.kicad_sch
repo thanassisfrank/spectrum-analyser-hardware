@@ -4523,7 +4523,7 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 119.38) (xy 54.61 128.27)
+			(xy 48.26 121.92) (xy 48.26 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4573,7 +4573,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 119.38) (xy 66.04 128.27)
+			(xy 59.69 121.92) (xy 59.69 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4853,7 +4853,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 119.38) (xy 77.47 128.27)
+			(xy 71.12 121.92) (xy 71.12 130.81)
 		)
 		(stroke
 			(width 0)
@@ -4880,6 +4880,16 @@
 			(type default)
 		)
 		(uuid "cdfb9919-d564-4241-8183-02f6e04d53dd")
+	)
+	(wire
+		(pts
+			(xy 81.28 121.92) (xy 81.28 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d006ffc0-a7f1-47f6-9fae-45882ca849d6")
 	)
 	(wire
 		(pts
@@ -5004,7 +5014,7 @@
 		(uuid 0520ca41-6249-4d53-ae97-777a803d03f4)
 	)
 	(rectangle
-		(start 49.53 110.49)
+		(start 44.45 110.49)
 		(end 99.06 146.05)
 		(stroke
 			(width 0)
@@ -5053,7 +5063,7 @@
 	)
 	(rectangle
 		(start 15.24 110.49)
-		(end 46.99 146.05)
+		(end 41.91 146.05)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5286,7 +5296,7 @@
 	)
 	(text "Mounting holes"
 		(exclude_from_sim no)
-		(at 45.72 144.78 0)
+		(at 40.64 144.78 0)
 		(effects
 			(font
 				(size 2 2)
@@ -6226,6 +6236,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 81.28 130.81 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b775dcd-1920-4790-8024-d03a636aeb46")
+		(property "Reference" "TP4"
+			(at 80.01 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 80.01 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 76.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 76.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a23df7f9-c92c-4284-89b2-4258108b2251")
+		)
+		(instances
+			(project "spectrum-analyser"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 254 40.64 0)
 		(unit 1)
@@ -6294,7 +6370,7 @@
 	)
 	(symbol
 		(lib_id "power:VDC")
-		(at 66.04 119.38 0)
+		(at 59.69 121.92 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6303,7 +6379,7 @@
 		(dnp no)
 		(uuid "230aaf04-a348-4a7e-a183-08d864abf031")
 		(property "Reference" "#PWR04"
-			(at 66.04 121.92 0)
+			(at 59.69 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6312,7 +6388,7 @@
 			)
 		)
 		(property "Value" "VDC"
-			(at 66.04 114.3 0)
+			(at 59.69 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6320,7 +6396,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 66.04 119.38 0)
+			(at 59.69 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6329,7 +6405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 119.38 0)
+			(at 59.69 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6338,7 +6414,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 66.04 119.38 0)
+			(at 59.69 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6524,7 +6600,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 66.04 128.27 180)
+		(at 59.69 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6532,7 +6608,7 @@
 		(dnp no)
 		(uuid "24a96553-a391-471e-b490-183959f7a91d")
 		(property "Reference" "TP2"
-			(at 64.77 134.62 0)
+			(at 58.42 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6541,7 +6617,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 64.77 137.16 0)
+			(at 58.42 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6550,7 +6626,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 60.96 128.27 0)
+			(at 54.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6559,7 +6635,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 60.96 128.27 0)
+			(at 54.61 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +6644,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 66.04 128.27 0)
+			(at 59.69 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,6 +8454,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 81.28 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab698f2f-8bcd-460e-be63-56bd3bfe940e")
+		(property "Reference" "#PWR040"
+			(at 81.28 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 81.28 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 81.28 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c0daf609-0f8b-4c4c-b041-c93bfff71f94")
+		)
+		(instances
+			(project ""
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 132.08 0)
 		(unit 1)
@@ -8645,7 +8787,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 54.61 128.27 180)
+		(at 48.26 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8653,7 +8795,7 @@
 		(dnp no)
 		(uuid "bce6dfc9-ca52-46f2-b5ea-dd7b6d408de6")
 		(property "Reference" "TP1"
-			(at 53.34 134.62 0)
+			(at 46.99 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8662,7 +8804,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 53.34 137.16 0)
+			(at 46.99 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8671,7 +8813,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 49.53 128.27 0)
+			(at 43.18 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8680,7 +8822,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 128.27 0)
+			(at 43.18 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8689,7 +8831,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 54.61 128.27 0)
+			(at 48.26 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9252,7 +9394,7 @@
 	)
 	(symbol
 		(lib_id "thanassis_sym:VUSB")
-		(at 54.61 119.38 0)
+		(at 48.26 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9261,7 +9403,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2a5f34f-8c8d-4c8d-a38f-035ddd9a6057")
 		(property "Reference" "#PWR02"
-			(at 54.61 123.19 0)
+			(at 48.26 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9270,7 +9412,7 @@
 			)
 		)
 		(property "Value" "VUSB"
-			(at 54.61 114.3 0)
+			(at 48.26 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9278,7 +9420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 119.38 0)
+			(at 48.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9287,7 +9429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 119.38 0)
+			(at 48.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9296,7 +9438,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VUSB\""
-			(at 54.61 119.38 0)
+			(at 48.26 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9319,7 +9461,7 @@
 	(symbol
 		(lib_name "+VSW_1")
 		(lib_id "power:+VSW")
-		(at 77.47 119.38 0)
+		(at 71.12 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9328,7 +9470,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3e9568d-5d3e-4aae-ba9a-a3993a070299")
 		(property "Reference" "#PWR08"
-			(at 77.47 123.19 0)
+			(at 71.12 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9337,7 +9479,7 @@
 			)
 		)
 		(property "Value" "+VSW"
-			(at 77.47 114.3 0)
+			(at 71.12 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9345,7 +9487,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 119.38 0)
+			(at 71.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9354,7 +9496,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 119.38 0)
+			(at 71.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9363,7 +9505,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+VSW\""
-			(at 77.47 119.38 0)
+			(at 71.12 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9772,22 +9914,22 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9779744-883c-4c4c-8be4-04e9489ab424")
-		(property "Reference" "TP4"
-			(at 92.71 116.84 0)
+		(property "Reference" "TP5"
+			(at 88.9 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 92.71 114.3 0)
+			(at 88.9 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D2.0mm_Drill1.0mm"
@@ -9823,7 +9965,7 @@
 		(instances
 			(project "spectrum-analyser"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -9898,7 +10040,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 77.47 128.27 180)
+		(at 71.12 130.81 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9906,7 +10048,7 @@
 		(dnp no)
 		(uuid "ff1437b0-3213-466d-bb18-c047efac958c")
 		(property "Reference" "TP3"
-			(at 76.2 134.62 0)
+			(at 69.85 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9915,7 +10057,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 76.2 137.16 0)
+			(at 69.85 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9924,7 +10066,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 72.39 128.27 0)
+			(at 66.04 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9933,7 +10075,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 128.27 0)
+			(at 66.04 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9942,7 +10084,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 77.47 128.27 0)
+			(at 71.12 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
